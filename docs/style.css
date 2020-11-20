@@ -1,5 +1,125 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+/* full resume */
 .resume {
-    max-width: 500px;
+    max-width: 816px;
+    min-width: 600px;
     margin: auto;
-    border: 3px solid #73AD21;
-  }
+    border: 2px solid rgb(92, 92, 92);
+    box-shadow: 8px 8px grey;
+}
+
+/* general sections */
+.sectionblock {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sectiontitle {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(26, 117, 153)
+}
+
+hr {
+    border-top: 2px solid rgb(26, 117, 153);
+}
+
+/* header */
+#headerSection {
+    margin-top: 50px;
+}
+.headerItems {
+    list-style-type: none;
+    text-align: right;
+}
+
+/* Name Block */
+#nameSection {
+    text-align: center;
+}
+.nameItems {
+    list-style-type: none;
+    
+}
+#myName {
+    font-size: 24pt;
+    color: rgb(26, 117, 153)
+}
+/* Skills */
+#skillColContainer {
+
+    margin: auto;
+    width: 80%;
+
+}
+.skillcol {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+}
+
+#skillcol1 {
+    position: relative;
+    float: left;
+}
+#skillcol2 {
+    position: relative;
+    float: center;
+}
+#skillcol3 {
+    position: relative;
+    float: left;
+}
+
+.skillList {
+    white-space: nowrap;
+    display: table;
+    margin:auto;
+}
+
+.skill {
+    float: left;
+    clear: left;
+}
+
+/* Work Experience */
+.workPosition {
+    font-size: 12pt;
+    list-style: none;
+    font-weight: bold; 
+}
+
+.workCompany {
+    font-size: 12pt;
+    list-style: none;
+}
+
+.workDate {
+    font-size: 12pt;
+    list-style: none;
+    font-style: italic;
+}
+/* Education */
+.degreeName {
+    list-style: none;
+    font-weight: bold;
+
+}
+.schoolName {
+    list-style: none;
+}
+.schoolInfo {
+    list-style: none;
+    font-style: italic;
+}
+/* Certifications and Licenses */
+.certTitle {
+    list-style: none;
+    font-weight: bold;
+}
+
+
